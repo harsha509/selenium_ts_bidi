@@ -1,0 +1,24 @@
+{
+  "name": "selenium_typescript_tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "rm -rf dist && tsc && npx mocha -t 10000 dist/sample.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.2.0",
+    "@types/selenium-webdriver": "^4.1.25",
+    "@types/ws": "^8.5.12",
+    "mocha": "^10.7.3",
+    "selenium-webdriver": "^4.23.0",
+    "typescript": "^5.5.4",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.7"
+  }
+}
